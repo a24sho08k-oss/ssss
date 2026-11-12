@@ -4,5 +4,12 @@
   "type": "module",
   "scripts": {
     "start": "node bot.js"
+  },
+  "dependencies": {
+    "@google/genai": "^3.2.0",
+    "@whiskeysockets/baileys": "^6.7.23",
+    "express": "^5.3.0",
+    "pino": "^10.4.0",
+    "qrcode-terminal": "^0.12.0"
   }
 }
